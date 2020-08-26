@@ -6,6 +6,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.testapp.R
 import com.example.testapp.ui.view.ItemListViewHolder
 
+/**
+ * Adapter for showing string items.
+ */
 class ItemListAdapter(
     var list: List<String>,
     private val selectable: Boolean = false,

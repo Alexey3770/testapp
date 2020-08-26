@@ -5,6 +5,9 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_list.view.*
 
+/**
+ * View holder is used for showing string item.
+ */
 class ItemListViewHolder(
     itemView: View,
     private val selectable: Boolean = false,
@@ -13,6 +16,9 @@ class ItemListViewHolder(
 
     private var isSelected = false
 
+    /**
+     * Bind view holder with string item.
+     */
     fun bind(text: String) {
         itemView.itemListText.text = text
         itemView.setOnClickListener {

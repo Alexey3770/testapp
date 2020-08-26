@@ -7,6 +7,9 @@ import com.example.testapp.R
 import com.example.testapp.ui.BaseFragment
 import kotlinx.android.synthetic.main.fragment_home.*
 
+/**
+ * Fragment is used for navigate to available screens.
+ */
 class HomeFragment : BaseFragment() {
 
     override val layoutId = R.layout.fragment_home

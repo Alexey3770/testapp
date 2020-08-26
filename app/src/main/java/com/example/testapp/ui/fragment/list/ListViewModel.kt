@@ -1,9 +1,11 @@
 package com.example.testapp.ui.fragment.list
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
+/**
+ * View model for [ListFragment]. Contains logic which allows to remove items.
+ */
 class ListViewModel : ViewModel() {
 
     private val list = mutableListOf("Test", "App", "First")
